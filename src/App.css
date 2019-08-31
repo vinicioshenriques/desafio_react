@@ -1,0 +1,117 @@
+html,
+body {
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 93.75%;
+  background: #4a90e2;
+}
+
+.rectangle .facebook {
+  padding-left: 25px;
+  font-size: 3.5rem;
+  font-weight: bold;
+  align-self: center;
+  color: #fff;
+}
+
+.rectangle .meu-perfil {
+  padding-right: 55px;
+  font-size: 1.5rem;
+  align-self: center;
+  color: #ffffff;
+}
+
+.container-posts {
+  padding-top: 30rem;
+  display: flex;
+  align-content: center;
+}
+
+.post-card {
+  box-shadow: 2px 2px 12px 2px #d0d0d0;
+  min-height: 30rem;
+  max-width: 600px;
+}
+
+.post-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar-container {
+  padding: 20px 20px 10px 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.header-informations {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.poster-name {
+  font-size: 1.3rem;
+}
+
+.post-date {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.post-body {
+  padding: 10px;
+}
+
+.post-content {
+  font-size: 1.1rem;
+  text-justify: inherit;
+}
+
+.post-footer {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.comment-details {
+  background: #eaeaea;
+  margin: 15px 20px 0px 0px;
+  border-radius: 5px;
+}
+
+.comment-content {
+  margin: 10px;
+  font-size: 1rem;
+}
+
+.author-name {
+  font-weight: bold;
+  margin-right: 0.8rem;
+  font-size: 1.1rem;
+}
